@@ -1,0 +1,29 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Pompiliu Condrea",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.20.5",
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "core-js": "^3.27.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.11"
+  },
+  "babel": {
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-private-methods"
+    ]
+  }
+}
