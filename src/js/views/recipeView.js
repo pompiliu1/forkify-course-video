@@ -5,7 +5,7 @@ import icons from 'url:../../img/icons.svg'; //Parcel 2// icons poate fi orice n
 
 // console.log(Fraction);
 
-import numberToFraction from '../helpers.js';
+import { numberToFraction } from '../helpers.js';
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
