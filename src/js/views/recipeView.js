@@ -4,7 +4,7 @@ import View from './View.js';
 import icons from 'url:../../img/icons.svg'; //Parcel 2// icons poate fi orice nume, adica putem sa numim image in loc de icons etc
 import { Fraction } from 'fractional'; ////imported from npm
 // console.log(Fraction);
-import { fracty } from 'fracty';
+
 import numberToFraction from '../helpers.js';
 
 class RecipeView extends View {
